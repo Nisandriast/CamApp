@@ -20,6 +20,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+
+//newcommit
+
 public class MainActivity extends AppCompatActivity {
 
     private static final int CAMERA_CAPTURE_VIDEO_REQUEST_CODE = 200;
