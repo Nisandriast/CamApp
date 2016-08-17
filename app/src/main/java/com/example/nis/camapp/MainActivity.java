@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         fileUri = getOutputMediaFileUri(MEDIA_TYPE_VIDEO);
 
         // set video quality
-        intent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 0);
+        intent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 1);
 
         intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri); // set the image file
         // name
